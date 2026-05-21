@@ -6,22 +6,22 @@ class Termcolors < Formula
   on_macos do
     on_arm do
       url "https://github.com/jnschurig/termcolors/releases/download/v0.1.4/termcolors-aarch64-macos.tar.gz"
-      sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+      sha256 "340c33f24fc7d835ca3991f629960b9ea7c2b6932cb012c1f7887e4bcb0e63aa"
     end
     on_intel do
       url "https://github.com/jnschurig/termcolors/releases/download/v0.1.4/termcolors-x86_64-macos.tar.gz"
-      sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+      sha256 "0a8e1e974e20d61c359f5e740d036fc9c5c43ef4bc32b7864ab73dfb1305c8a5"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/jnschurig/termcolors/releases/download/v0.1.4/termcolors-aarch64-linux-musl.tar.gz"
-      sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+      sha256 "b1c4a5d037ce49c075fd40e2cd169760d653c94c10c4f2fde00059aed8889699"
     end
     on_intel do
       url "https://github.com/jnschurig/termcolors/releases/download/v0.1.4/termcolors-x86_64-linux-musl.tar.gz"
-      sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+      sha256 "d1c263faa639e32323f5f5e9a5662f0a1f442aa0a078e881a12ecbb4085c5ba5"
     end
   end
 
