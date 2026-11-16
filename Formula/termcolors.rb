@@ -5,23 +5,23 @@ class Termcolors < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/jnschurig/termcolors/releases/download/v0.2.0/termcolors-aarch64-macos.tar.gz"
-      sha256 "968e0e7c7f27a7ef8b5990c8d8e3bd2f7817b08f05a4f570e5bdd9e264baff04"
+      url "https://github.com/jnschurig/termcolors/releases/download/v0.3.0/termcolors-aarch64-macos.tar.gz"
+      sha256 "20b6c587c54bf9f845822da14548644068c1e024dd39a92667a306caa76eed59"
     end
     on_intel do
-      url "https://github.com/jnschurig/termcolors/releases/download/v0.2.0/termcolors-x86_64-macos.tar.gz"
-      sha256 "ba50ab49a8724a5a5311f043aa7792a08dfe3826c156fe3827039509e38f77d2"
+      url "https://github.com/jnschurig/termcolors/releases/download/v0.3.0/termcolors-x86_64-macos.tar.gz"
+      sha256 "af2e8a56ef0419d46ae0ecbdff010e3e36b2041d73786ba3f10418c75ae26c27"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/jnschurig/termcolors/releases/download/v0.2.0/termcolors-aarch64-linux-musl.tar.gz"
-      sha256 "6075fe9984107c9807e3984916b0d2b7305fcb19d40531e055d02a7351c4bb77"
+      url "https://github.com/jnschurig/termcolors/releases/download/v0.3.0/termcolors-aarch64-linux-musl.tar.gz"
+      sha256 "87cfb8dbc793e21edb6b00adcd36091427767b85d323e75a312664411737a161"
     end
     on_intel do
-      url "https://github.com/jnschurig/termcolors/releases/download/v0.2.0/termcolors-x86_64-linux-musl.tar.gz"
-      sha256 "e656a55124dbe5b4a615fde0b0374fca74befad098ed9acedc67ff2a63fac79e"
+      url "https://github.com/jnschurig/termcolors/releases/download/v0.3.0/termcolors-x86_64-linux-musl.tar.gz"
+      sha256 "42a33bf612e0086b9ca1e02a48e3d30b357ecb56eeed892cc09d1c1426e7f60f"
     end
   end
 
